@@ -11,7 +11,8 @@
       "role": "Frontend",
       "level": "Senior",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "tools": []
+      "tools": [],
+      "image": "/images/photosnap.svg"
     },
     {
       "company": "Manage",
@@ -24,7 +25,8 @@
       "role": "Fullstack",
       "level": "Midweight",
       "languages": ["Python"],
-      "tools": ["React"]
+      "tools": ["React"],
+      "image": "/images/manage.svg"
     },
     {
       "company": "Account",
@@ -37,7 +39,8 @@
       "role": "Frontend",
       "level": "Junior",
       "languages": ["JavaScript"],
-      "tools": ["React", "Sass"]
+      "tools": ["React", "Sass"],
+      "image": "/images/account.svg"
     },
     {
       "company": "MyHome",
@@ -50,7 +53,8 @@
       "role": "Frontend",
       "level": "Junior",
       "languages": ["CSS", "JavaScript"],
-      "tools": []
+      "tools": [],
+      "image": "/images/myhome.svg"
     },
     {
       "company": "Loop Studios",
@@ -63,7 +67,8 @@
       "role": "Fullstack",
       "level": "Midweight",
       "languages": ["JavaScript", "Ruby"],
-      "tools": ["Sass"]
+      "tools": ["Sass"],
+      "image": "/images/loop-studios.svg"
     },
     {
       "company": "FaceIt",
@@ -76,7 +81,8 @@
       "role": "Backend",
       "level": "Junior",
       "languages": ["Ruby"],
-      "tools": ["RoR"]
+      "tools": ["RoR"],
+      "image": "/images/faceit.svg"
     },
     {
       "company": "Shortly",
@@ -89,7 +95,8 @@
       "role": "Frontend",
       "level": "Junior",
       "languages": ["HTML", "JavaScript"],
-      "tools": ["Sass"]
+      "tools": ["Sass"],
+      "image": "/images/shortly.svg"
     },
     {
       "company": "Insure",
@@ -102,7 +109,8 @@
       "role": "Frontend",
       "level": "Junior",
       "languages": ["JavaScript"],
-      "tools": ["Vue", "Sass"]
+      "tools": ["Vue", "Sass"],
+      "image": "/images/insure.svg"
     },
     {
       "company": "Eyecam Co.",
@@ -115,7 +123,8 @@
       "role": "Fullstack",
       "level": "Midweight",
       "languages": ["JavaScript", "Python"],
-      "tools": ["Django"]
+      "tools": ["Django"],
+      "image": "/images/eyecam-co.svg"
     },
     {
       "company": "The Air Filter Company",
@@ -128,7 +137,8 @@
       "role": "Frontend",
       "level": "Junior",
       "languages": ["JavaScript"],
-      "tools": ["React", "Sass"]
+      "tools": ["React", "Sass"],
+      "image": "/images/the-air-filter-company.svg"
     }
   ]
 }
