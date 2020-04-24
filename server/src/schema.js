@@ -16,6 +16,11 @@ const typeDefs = gql`
     tools: [String]
     image: String
   }
+
+  type Query {
+    jobs: [Job]!
+    job(id: ID!): Job!
+}
 `
 
 module.exports = typeDefs

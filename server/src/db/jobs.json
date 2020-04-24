@@ -1,6 +1,7 @@
 {
   "jobs": [
     {
+      "id": 1,
       "company": "Photosnap",
       "new": true,
       "featured": true,
@@ -15,6 +16,7 @@
       "image": "/images/photosnap.svg"
     },
     {
+      "id": 2,
       "company": "Manage",
       "new": true,
       "featured": true,
@@ -29,6 +31,7 @@
       "image": "/images/manage.svg"
     },
     {
+      "id": 3,
       "company": "Account",
       "new": true,
       "featured": false,
@@ -43,6 +46,7 @@
       "image": "/images/account.svg"
     },
     {
+      "id": 4,
       "company": "MyHome",
       "new": false,
       "featured": false,
@@ -57,6 +61,7 @@
       "image": "/images/myhome.svg"
     },
     {
+      "id": 5,
       "company": "Loop Studios",
       "new": false,
       "featured": false,
@@ -71,6 +76,7 @@
       "image": "/images/loop-studios.svg"
     },
     {
+      "id": 6,
       "company": "FaceIt",
       "new": false,
       "featured": false,
@@ -85,6 +91,7 @@
       "image": "/images/faceit.svg"
     },
     {
+      "id": 7,
       "company": "Shortly",
       "new": false,
       "featured": false,
@@ -99,6 +106,7 @@
       "image": "/images/shortly.svg"
     },
     {
+      "id": 8,
       "company": "Insure",
       "new": false,
       "featured": false,
@@ -113,6 +121,7 @@
       "image": "/images/insure.svg"
     },
     {
+      "id": 9,
       "company": "Eyecam Co.",
       "new": false,
       "featured": false,
@@ -127,6 +136,7 @@
       "image": "/images/eyecam-co.svg"
     },
     {
+      "id": 10,
       "company": "The Air Filter Company",
       "new": false,
       "featured": false,
