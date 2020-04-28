@@ -1,9 +1,14 @@
-const low = require('lowdb')
-const FileSync = require('lowdb/adapters/FileSync')
+const low = require('lowdb');
+const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter = new FileSync('server/src/db/db.json')
-const db = low(adapter)
+const adapter = new FileSync('server/src/db/jobs.json');
+const db = low(adapter);
+
+const createJobModel = require('./job');
 
 module.exports = {
+  models: {
+    Job: createJobModel(db)
+  },
   db
 }

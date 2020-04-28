@@ -18,7 +18,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    jobs: [Job]!
+    jobs: [Job]
     job(id: ID!): Job!
 }
 `
