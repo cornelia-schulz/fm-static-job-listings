@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
 interface iProps {
+  id: string;
   company: string;
   featured: boolean;
   image: string;
@@ -10,6 +11,7 @@ interface iProps {
   new: boolean;
   posted: string;
   role: string;
+  level: string;
   tools: string[];
   type: string;
 }
