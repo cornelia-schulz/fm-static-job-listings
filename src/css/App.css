@@ -3,7 +3,7 @@
   --light-greyish-cyan: hsl(180, 52%, 96%);
   --dark-greyish-cyan: hsl(180, 8%, 52%);
   --very-dark-greyish-cyan: hsl(180, 14%, 20%);
-  --font-cyan: #5da5a4;
+  --font-cyan:hsl(180, 29%, 50%);
   --white: #fff;
   --black: #111;
 }
@@ -43,6 +43,7 @@ h2:hover {
 
 .card-list {
   margin-top: 4rem;
+  padding: 1rem 2rem;
 }
 
 .job-card {
@@ -110,4 +111,50 @@ h2:hover {
 
 .cyan-left-border {
   border-left: 4px solid var(--font-cyan);
+}
+
+@media only screen and (max-width: 979px) {
+  .job-card {
+    flex-direction: column;
+    min-height: 210px;
+  }
+
+  .job-tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .job {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .job-card {
+    margin-bottom: 4rem;
+    min-height: 270px;
+  }
+
+  .job-info>span {
+    margin-right: 0.5rem;
+  }
+
+  .job {
+    align-items: flex-start;
+    border-bottom: 1px solid var(--dark-greyish-cyan);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+
+  .job-image {
+    margin-bottom: 1rem;
+    margin-top: -5rem;
+  }
+
+  .job-tags>span {
+    margin-bottom: 1rem;
+  }
+
 }
