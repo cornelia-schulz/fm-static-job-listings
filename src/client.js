@@ -1,9 +1,10 @@
-import { ApolloClient } from 'apollo-client';
+import { ApolloClient } from 'apollo-boost';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { HttpLink } from 'apollo-link-http';
 import { ApolloLink } from 'apollo-link';
 
-const http = new HttpLink({uri: 'http://localhost:4000'});
+// const http = new HttpLink({uri: 'http://localhost:4000'});
+const http = new HttpLink({ uri: '/.netlify/functions/apollo'})
 const link = ApolloLink.from([
   http
 ]);
