@@ -87312,7 +87312,7 @@ const low = __webpack_require__(/*! lowdb */ "../../node_modules/lowdb/lib/main.
 
 const FileSync = __webpack_require__(/*! lowdb/adapters/FileSync */ "../../node_modules/lowdb/adapters/FileSync.js");
 
-const adapter = new FileSync('server/db/jobs.json');
+const adapter = new FileSync('jobs.json');
 const db = low(adapter);
 
 const createJobModel = __webpack_require__(/*! ./job */ "../../server/db/job.js");
