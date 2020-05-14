@@ -17,6 +17,7 @@
     "apollo-link-context": "^1.0.20",
     "apollo-link-http": "^1.5.17",
     "apollo-server-lambda": "^2.13.1",
+    "encoding": "^0.1.12",
     "graphql": "^15.0.0",
     "graphql-tag": "^2.10.3",
     "lowdb": "^1.0.0",
