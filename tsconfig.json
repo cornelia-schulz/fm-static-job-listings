@@ -20,6 +20,6 @@
     "jsx": "react"
   },
   "include": [
-    "src", "server/resolvers.js", "server/schema.js", "server/db"
+    "src", "src/lambda/apollo/resolvers.js", "src/lambda/apollo/schema.js", "src/lambda/apollo/db"
   ]
 }

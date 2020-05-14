@@ -1,7 +1,7 @@
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter = new FileSync('/src/lambda/apollo/db/jobs.json');
+const adapter = new FileSync('./jobs.json');
 const db = low(adapter);
 
 const createJobModel = require('./job');
